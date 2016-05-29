@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+     "intent": "NoIntent"
+    },  
+    {
+      "intent": "ListTeamsIntent"
+    },
+    {
+      "intent": "ListGroupsIntent"
+    },
+    {
+      "intent": "TeamsInAGroupIntent",
+      "slots": [
+        {
+          "name": "Group",
+          "type": "LIST_OF_GROUPS"
+        }
+      ]
+    },
+    {
+      "intent": "GroupForTeamIntent",
+      "slots": [
+        {
+          "name": "Team",
+          "type": "LIST_OF_TEAMS"
+        }
+      ]
+    },
+    {
+      "intent": "AdversaryOfTeamIntent",
+      "slots": [
+        {
+          "name": "Team",
+          "type": "LIST_OF_TEAMS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

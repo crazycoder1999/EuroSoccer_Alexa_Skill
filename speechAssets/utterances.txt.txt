@@ -1,0 +1,30 @@
+NoIntent give me some info
+NoIntent how to use the skill
+
+AdversaryOfTeamIntent who are adversary of {Team}
+AdversaryOfTeamIntent who will {Team} encounters
+AdversaryOfTeamIntent who will {Team} play against
+AdversaryOfTeamIntent who will be the opponent of {Team} play against
+
+GroupForTeamIntent which is the group for {Team}
+GroupForTeamIntent in which group is {Team}
+
+TeamsInAGroupIntent which are the teams for {Group}
+TeamsInAGroupIntent which are the teams for group {Group}
+TeamsInAGroupIntent teams for {Group}
+TeamsInAGroupIntent teams for group {Group}
+
+ListTeamsIntent who are the teams in the cup
+ListTeamsIntent which are the teams in the cup
+ListTeamsIntent who are the teams
+ListTeamsIntent list all the teams
+ListTeamsIntent which are the teams
+ListTeamsIntent give me the teams
+ListTeamsIntent give me the cup teams
+ListTeamsIntent give me the qualified teams
+
+ListGroupsIntent which are the groups in the cup
+ListGroupsIntent which are the groups
+ListGroupsIntent list the groups in the cup
+ListGroupsIntent give me the groups
+ListGroupsIntent list all the groups
