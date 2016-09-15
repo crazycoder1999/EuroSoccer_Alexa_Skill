@@ -1,0 +1,57 @@
+<!-- Variables are with 2 #, like #field#. It will be replaced by <field> from the tool
+     it will also extract ALL the utterance in a SampleUtterance.txt file
+ -->
+
+<utterances_groups>
+<group>
+	<description>No intent.. launch request</description> <!-- *** CHANGE DURING TIME -->
+	<intent>NoIntent</intent>
+	<utterance>give me some info</utterance>
+	<utterance>how to use the skill</utterance>
+</group>
+<group>
+	<description>Adversary of {Team}</description> <!-- *** CHANGE DURING TIME -->
+	<intent>AdversaryOfTeamIntent</intent>
+	<utterance>who are adversary of {Team}</utterance>
+	<utterance>who will {Team} encounters</utterance>
+	<utterance>who will {Team} play against</utterance>
+	<utterance>who will be the opponent of {Team} play against</utterance>
+</group>
+<group>
+	<description>The group for {Team}</description> <!-- **** -->
+	<intent>GroupForTeamIntent</intent>
+	<utterance>which is the group for {Team}</utterance>
+	<utterance>in which group is {Team}</utterance>
+</group>
+<group>
+	<description>Teams in a {Group}</description> <!-- **** -->
+	<intent>TeamsInAGroupIntent</intent>
+	<utterance>which are the teams for {Group}</utterance>
+	<utterance>which are the teams for group {Group}</utterance>
+	<utterance>teams for {Group}</utterance>
+	<utterance>teams for group {Group}</utterance>
+</group>
+<group>
+	<description>Teams in the cup</description> <!-- **** -->
+	<intent>ListTeamsIntent</intent>
+	<utterance>who are the teams in the cup</utterance>
+	<utterance>which are the teams in the cup</utterance>
+	<utterance>who are the teams</utterance>
+	<utterance>list all the teams</utterance>
+	<utterance>which are the teams</utterance>
+	<utterance>give me the teams</utterance>
+	<utterance>give me the cup teams</utterance>
+	<utterance>give me the qualified teams</utterance>
+</group>
+<group>
+	<description>The groups of the cup</description> <!-- **** -->
+	<intent>ListGroupsIntent</intent>
+	<utterance>which are the groups in the cup</utterance>
+	<utterance>which are the groups</utterance>
+	<utterance>list the groups in the cup</utterance>
+	<utterance>give me the groups</utterance>
+	<utterance>list all the groups</utterance>
+</group>
+
+
+</utterances_groups>
